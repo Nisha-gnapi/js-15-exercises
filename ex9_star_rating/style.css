@@ -1,0 +1,19 @@
+#stars {
+  display: inline-block;
+  padding: 10px;
+}
+
+#stars span {
+  font-size: 40px;
+  cursor: pointer;
+  color: lightgray;
+  transition: color 0.2s ease;
+}
+
+#stars span.active {
+  color: gold;
+}
+
+#stars span:hover {
+  transform: scale(1.1);
+}

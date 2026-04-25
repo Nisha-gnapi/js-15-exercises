@@ -1,0 +1,18 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#setup {
+  font-weight: bold;
+}
+
+#punchline {
+  margin-top: 5px;
+}

@@ -1,0 +1,19 @@
+/* Light mode (default) */
+body {
+  background: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Dark mode */
+html.dark body {
+  background: #121212;
+  color: white;
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}

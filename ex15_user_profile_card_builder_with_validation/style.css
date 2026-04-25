@@ -1,0 +1,31 @@
+
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 5px;
+  width: 300px;
+  padding: 6px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}

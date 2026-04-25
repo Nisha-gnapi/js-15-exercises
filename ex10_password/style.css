@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+}
+
+#password {
+  padding: 8px;
+  width: 250px;
+}
+
+#toggle {
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.bar-container {
+  width: 250px;
+  height: 10px;
+  background: #ddd;
+  margin-top: 10px;
+}
+
+#bar {
+  height: 100%;
+  width: 0%;
+  transition: 0.3s;
+}
+
+#strengthText {
+  margin-top: 5px;
+  font-weight: bold;
+}
